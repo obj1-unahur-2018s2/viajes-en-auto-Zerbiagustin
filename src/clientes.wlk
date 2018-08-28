@@ -9,3 +9,14 @@ object teresa{
 	method precioPorKilometro() {return 22}
 	}
 
+object melina{
+	var cOmpania
+	method viajaPor(cliente){
+		cOmpania=cliente
+	
+	}
+	method precioDelCliente(){
+		return cOmpania.precioDelCliente() -3
+		
+	}
+}
